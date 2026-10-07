@@ -1,0 +1,23 @@
+{
+  "name": "practice-1",
+  "version": "1.0.0",
+  "description": "a backend",
+  "keywords": [
+    "backend",
+    "javascript"
+  ],
+  "license": "ISC",
+  "author": "shanto",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.6",
+    "express": "^5.2.1",
+    "mongoose": "^9.11.1",
+    "nodemon": "^3.1.14",
+    "prettier": "^3.9.9"
+  }
+}
