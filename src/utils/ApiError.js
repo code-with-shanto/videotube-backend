@@ -9,7 +9,7 @@ class ApiError extends Error{
         super(massage)
         this.statuscode = statuscode
         this.data = null
-        this.massage = message
+        this.massage = massage
         this.success = false;
         this.errors = errors
 
